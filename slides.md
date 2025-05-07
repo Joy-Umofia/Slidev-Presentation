@@ -83,7 +83,7 @@ h1 {
 -  Grace Oluwasegun
 -  Ifeoluwa Osinuga
 -  Ibe Okorafor
--  Okoye Chukwu Innocent
+-  Okoye Chukwudi Innocent
 -  Anowai Chukwuemeka Stephen
 -  Oscar Ochang
 
@@ -206,7 +206,7 @@ console.log(age)//output[20,50] it removes the last item from the array
 - unshift
 ```js{monaco}
 const age=[20,50,40]
-age.push(10)
+age.unshift(10)
 console.log(age)//output[10,20,50,40] it adds the number 10 to the beginning of the array
 ```
 ---
@@ -363,7 +363,7 @@ check out the [Awesome Themes Gallery](https://sli.dev/resources/theme-gallery).
 ---
 
 # Callbacks and Events in JavaScript
-In JavaScript, callbacks and events are important concepts used to handle asynchronous operations and user interactions.
+In JavaScript, callbacks and events are important concepts used to handle asynchronous operations and user interactions.<br>
 What is a Callback?
 A callback is a function that is passed into another function as an argument, and it is executed after some operation has been completed. Callbacks are commonly used for asynchronous tasks like loading data or responding to user actions.
 Think of a callback like ordering food at a restaurant. When you place your order, the waiter takes it to the kitchen, and instead of waiting around, you give the waiter your phone number so they can call you when the food is ready. This is similar to JavaScript, where you pass a function (the callback) to another function to be called once a task is complete. However, if you start placing several orders that depend on each other—like needing your drink before the starter, and the starter before the main—you might end up dealing with too many layers of callbacks. This situation is known as callback hell, where code becomes messy and hard to manage. That's why developers often use Promises or async/await to avoid it.
@@ -420,7 +420,8 @@ The last comment block of each slide will be treated as slide notes. It will be 
 -->
 
 # Controlling Forms In JavaScript
-Forms are Key for user input and interaction in web development. In oder to create dynamic and interactive websites, it is important to understand how to work with forms using javaScript. In order to access forms using javascript, document.forms is being used. It is a named-collection which means you can access forms using both their names and index. We could create a form with javaScript using the createElement() method.
+Forms are Key for user input and interaction in web development. In order to create dynamic and interactive websites, it is important to understand how to work with forms using javaScript.<br> 
+In order to access forms using javascript, document.forms is being used. It is a named-collection which means you can access forms using both their names and index. We could create a form with javaScript using the createElement() method.
 A form may have one or many fieldset elements inside it. They also have elements property that lists form controls inside them. The HTML fieldset element gets used to group several controls as well as labels (label) within a web form. We can access the Fieldset properties via the form.elements property.
 
 <style>
@@ -481,7 +482,7 @@ console.log(user.form) //gets the form which the 'user' input belongs to;
 ---
 # Form Properties
 Form elements has different properties that allows us to interact with them programmatically.
-For instance, you can use the "value" property to access and modify form elements like the input and textarea. Thi property could be a string (input.value) or boolean(input.checked), for checkboxes and radio buttons. Unlike the input and textarea elements, the select element has a wider range of properties you can use to interact with a form, these properties are as follows:<br>.option<br>.value<br>.selectedIndex.
+For instance, you can use the "value" property to access and modify form elements like the input and textarea. This property could be a string (input.value) or boolean(input.checked), for checkboxes and radio buttons. Unlike the input and textarea elements, the select element has a wider range of properties you can use to interact with a form, these properties are as follows:<br>.option<br>.value<br>.selectedIndex.
 
 # Focusing: focus/blur
 Managing focus and blur events is crucial to a web developer when making forms and other input elements user friendly. This gives the developer control over what happens when a user clicks or hover over input fields like text-boxes, drop downs etc, thereby enhancing the user experience. Focus indicates that a user is ready to input data into a certain element. This focus is achieved when the element gains the attention of the user, especially when the user clicks or navigates their way to the element with a keyboard. 
@@ -1196,6 +1197,9 @@ local:http://127.0.0.1:5173/
 # Mini Projects
  [FORM](https://f-validation.vercel.app)
 
+ [Quote generator](https://joy-umofia.github.io/Quote-generator/)
+
+ [Weather Checker](https://joy-umofia.github.io/Weather-APP/)
 ---
 
 
